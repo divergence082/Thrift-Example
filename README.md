@@ -37,7 +37,7 @@ Simple thrift service creation example
   Or another languages (type ```thrift -help``` to get the list)   
   specified at namespace section of your idl.
 
-  U can use generate.sh file at root forler of this project to ...   
+  U can use generate.sh file at the root of this project to ...   
   HA! GENERATE sources.
 
 
