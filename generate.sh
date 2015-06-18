@@ -4,7 +4,7 @@
 # ./generate.sh ${LANG}
 
 LANG=$1
-DIR=./code/$LANG
+DIR=./src/$LANG
 
 rm -rf $DIR && mkdir -p $DIR
 thrift -r -strict --gen $LANG -out $DIR idl/dialog-service.thrift
